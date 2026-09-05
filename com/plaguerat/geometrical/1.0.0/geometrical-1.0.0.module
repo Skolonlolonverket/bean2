@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.plaguerat",
+    "module": "geometrical",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "geometrical-1.0.0.jar",
+          "url": "geometrical-1.0.0.jar",
+          "size": 1726571,
+          "sha512": "daae2218b581581927806ec9cdd76b25ff61aeba94e06f6963e24713641ea2ecd8ddd62086b9697c3267d3488ac65fd76f196b9023fe091e7c2fca1632162deb",
+          "sha256": "993c4d371b7201466cd0e54a82b818696460e8ba5b4467b773464d85818e8ebe",
+          "sha1": "3bc8c0f2f3f1dd9df91014ba137a9737256db2a8",
+          "md5": "ef54291bd0be8736813c221ec9a4a83d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "sponge-mixin",
+          "version": {
+            "requires": "0.12.5+mixin.0.8.5"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.77.0+1.19.2"
+          }
+        },
+        {
+          "group": "com.lowdragmc.shimmer",
+          "module": "Shimmer-fabric",
+          "version": {
+            "requires": "1.19.2-0.1.12"
+          },
+          "excludes": [
+            {
+              "group": "com.github.LlamaLad7",
+              "module": "MixinExtras"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "photon-editor",
+          "version": {
+            "requires": "mc1.19.2-1.0.7.a-fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "ldlib",
+          "version": {
+            "requires": "mc1.19.2-1.0.20.a-fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "modmenu",
+          "version": {
+            "requires": "4.1.2"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "cloth-config",
+          "version": {
+            "requires": "8.3.103+fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "sodium",
+          "version": {
+            "requires": "mc1.19.2-0.4.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geometrical-1.0.0.jar",
+          "url": "geometrical-1.0.0.jar",
+          "size": 1726571,
+          "sha512": "daae2218b581581927806ec9cdd76b25ff61aeba94e06f6963e24713641ea2ecd8ddd62086b9697c3267d3488ac65fd76f196b9023fe091e7c2fca1632162deb",
+          "sha256": "993c4d371b7201466cd0e54a82b818696460e8ba5b4467b773464d85818e8ebe",
+          "sha1": "3bc8c0f2f3f1dd9df91014ba137a9737256db2a8",
+          "md5": "ef54291bd0be8736813c221ec9a4a83d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geometrical-1.0.0-sources.jar",
+          "url": "geometrical-1.0.0-sources.jar",
+          "size": 1713688,
+          "sha512": "b77e3a846736aa7cd0baade593dc6e53c9714fd0c4dafb8b40fe32e3ba9a8e2c287b94ec5cd3cd0cc3cce96664030d31f15868b45ca13be86d8ebd944ab79a5c",
+          "sha256": "78932b5746c4750e712a807386f99f01fd2975727f1e0b040c1757ac68365de7",
+          "sha1": "b639e296fc9e11a05f8d26b01cb7eb10a853a2a6",
+          "md5": "b66b227835ce09799c871a0590afc0d6"
+        }
+      ]
+    }
+  ]
+}
